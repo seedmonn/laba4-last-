@@ -7,7 +7,6 @@ Worker: Фамилия и инициалы, Должность, Год пост�
 #include <iostream>
 #include <fstream>
 #include <ctime>
-#include <clocale>
 
 using namespace std;
 ifstream fin("worker.txt"); // открыли файл для чтения
@@ -24,6 +23,7 @@ public:
 	int getJoiningYear();
 	char* getPosition();
 	void show();
+
 };
 
 Worker::Worker()
