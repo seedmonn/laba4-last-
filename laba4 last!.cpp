@@ -77,8 +77,6 @@ void sortBySeniority(Worker worker_spis[], int n)
 	_localtime64_s(&nowLocal, &long_time);
 	int year = nowLocal.tm_year + 1900;
 	int month = nowLocal.tm_mon + 1;
-	cout << "Год: " << year << endl;
-	cout << "Месяц: " << month << endl;
 
 	int seniority; //стаж
 	cout << "Задайте стаж: ";
@@ -124,7 +122,7 @@ int main()
 
 	int pick;
 	do {
-		cout << "1. Показать весь список\n";
+		cout << endl << "1. Показать весь список\n";
 		cout << "2. Отсортировать по стажу\n";
 		cout << "3. Отсортировать по зарплате\n";
 		cout << "4. Отсортировать по должности\n";
