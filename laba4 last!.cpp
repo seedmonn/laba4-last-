@@ -64,7 +64,7 @@ char* Worker::getPosition()
 void showAll(Worker worker_spis[], int n)
 {
 	for (int i = 0; i < n; i++) {
-		worker_spis[i].show(); //
+		worker_spis[i].show(); 
 	}
 	cout << endl;
 }
@@ -118,9 +118,9 @@ void sortByPosition(Worker worker_spis[], int n)
 int main()
 {
 
-	Worker* worker_spis;
+	Worker* worker_spis; // указатель на тип Worker
 	int n = 8;
-	worker_spis = new Worker[n];
+	worker_spis = new Worker[n]; // объявляем массив N объектов класса worker (оператор new обеспечивает выделение динамической памяти в куче)
 
 	int pick;
 	do {
@@ -155,7 +155,7 @@ int main()
 		default: {cout << "Ошибка! Попробуйте снова\n"; break; }
 		}
 	} while (pick != 0);
-
+	delete []worker_spis;
 	cin.get();
 	return 0;
 }
