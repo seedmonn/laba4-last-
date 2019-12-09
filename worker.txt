@@ -1,0 +1,64 @@
+Zyulkov A.A.
+seller
+2019
+300
+Kovalev L.P.
+teacher
+2007
+500
+Vorobev Y.A.
+driver
+2014
+250
+Kusznetsov A.B.
+cooker
+2001
+1000
+Koreneva A.A.
+teacher
+1987
+200
+Shifrin Z.V.
+director
+1991
+1500
+Plekhanov D.E.
+manager
+2003
+500
+Smirnov A.K.
+promoter
+2017
+100
+Kapralova A.A.
+artist
+2013
+5000
+Pakharev S.M.
+assistant
+2017
+400
+Karpov N.A.
+seller
+2018
+300
+Bazanov B.Z.
+baker
+2016
+300
+Kolesnikov B.B.
+seller
+2012
+350
+Danlikin D.Y.
+bodyguard
+2000
+2500
+Batyrov T.A.
+builder
+2015
+250
+Pudger F.M.
+butcher
+2004
+603
